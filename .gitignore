@@ -1,0 +1,14 @@
+# 本地部署 / 專案內部資料，不納入版本庫
+.workbuddy/
+.wbapp_*.genie
+
+# 過時 / 冗餘暫存區（待確認後刪除）
+temp/
+
+# WorkBuddy 發布目錄（與 index.html 重複，本地部署用）
+publish/
+
+# 系統 / 編輯器
+.DS_Store
+Thumbs.db
+*.swp
